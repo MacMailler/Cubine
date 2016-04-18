@@ -1,16 +1,17 @@
 package com.mygdx.game.desktop;
 
+import net.disya.voxen.game.VoxelGame;
+
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import su.gwg.voxelengine.game.VoxelGame;
 
 /**
  * Created by MacMailler
  */
 
 public class DesktopLauncher {
-	public static final int DEFAULT_WINDOW_WIDTH = 1024;
-	public static final int DEFAULT_WINDOW_HEIGTH = 640;
+	public static final int DEFAULT_WINDOW_WIDTH = 1280;
+	public static final int DEFAULT_WINDOW_HEIGTH = 720;
 	
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
